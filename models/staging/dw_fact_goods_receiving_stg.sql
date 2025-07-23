@@ -1,6 +1,2 @@
-{{ config(
-    materialized = 'table',
-    schema = 'staging'  -- adjust if your schema is named differently
-) }}
-
-SELECT 1 AS dummy_column
+--ofer
+select 'do or do not, there is no try' as favorite_quote

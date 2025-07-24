@@ -39,4 +39,3 @@ models:
   innoviz_etl:
     staging:
       +materialized: table
-      +schema: staging

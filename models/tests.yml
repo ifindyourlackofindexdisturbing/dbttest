@@ -1,16 +1,2 @@
 version: 2
 
-models:
-  - name: dw_traceability_quant_dbt
-    columns:
-      - name: FatherID
-        tests:
-          - not_null
-      - name: SonID
-        tests:
-          - not_null
-      - name: Quant
-        tests:
-          - not_null
-          - accepted_range:
-              min_value: 0

@@ -1,6 +1,6 @@
 {{config(
     materialized = 'table',
-    location = '/mnt/databricks-output/staging/dw_fact_goods_recieving_stg',
+    location = 'abfss://databricks-output@innovizadls.dfs.core.windows.net/staging/dw_fact_goods_recieving_stg',
     external=True
 )
 

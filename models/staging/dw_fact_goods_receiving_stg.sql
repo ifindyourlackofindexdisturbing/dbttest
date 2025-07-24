@@ -1,6 +1,6 @@
 {{config(
     materialized = 'table',
-    location = 'wasbs://databricks-output@innovizadls.blob.core.windows.net/staging/dw_fact_goods_recieving_stg',
+    location = 'wasbs://databricks-output@innovizadls.blob.core.windows.net/staging/dw_fact_goods_recieving_stg/',
     external=True
 )
 

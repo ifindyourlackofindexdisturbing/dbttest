@@ -36,9 +36,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  innoviz_etl:
-    example:
-      +materialized: table
-    staging:
-      +materialized: table
-      +schema: staging
+  example:
+    +materialized: table
+  staging:
+    +materialized: table
+    +schema: staging
